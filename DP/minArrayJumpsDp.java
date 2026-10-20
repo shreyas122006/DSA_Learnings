@@ -1,3 +1,4 @@
+package DP;
 import java.util.*;
 public class minArrayJumpsDp {
   public static int minJumps(int nums[]) {

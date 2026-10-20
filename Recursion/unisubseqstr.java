@@ -2,15 +2,14 @@ import java.util.HashSet;
 public class unisubseqstr {
     public static void subsequences(String Example, int Index, String NewString, HashSet<String> set) {
         if(Index == Example.length()) {
-            if(set.contains(NewString)) {
-            return;
-            }
-           else {
-            System.out.println(NewString);
-            set.add(NewString);
-            return;
+                if(set.contains(NewString)) {
+                    return;
+                } else {
+                    System.out.println(NewString);
+                    set.add(NewString);
+                    return;
+                }
         }
-    }
         char CurrChar = Example.charAt(Index);
 
         // if the char does not wants to come 

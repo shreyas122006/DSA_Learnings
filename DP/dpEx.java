@@ -28,7 +28,7 @@ public class dpEx { //O(n)
     System.out.println(fib(n,dp));
     System.out.println(fibTabulation(n));
     //Dp is optimized recursion TC decrease 
-    //Hpw to identify DP?
+    //How to identify DP?
     //a.Optimal Problem
     //b.some choice is given (multiple branches in recursion tree)
     // greedy(least,most,min,max,largest,smallest)  -> optimal
